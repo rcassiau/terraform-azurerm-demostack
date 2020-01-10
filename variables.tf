@@ -150,22 +150,6 @@ description = "do you want to use the enterprise version of the binaries"
 default     = false
 }
 
-#variable "subscription_id" {
-#description = "your subscription ID for Vault KMS Auto Unseal"
-#}
-
-#variable "tenant_id" {
-#description = "your tenant ID for Vault KMS Auto Unseal"
-#}
-
-#variable "client_id" {
-#description = "your client ID for Vault KMS Auto Unseal"
-#}
-#
-#variable "client_secret" {
-#description = "your client ID for Vault KMS Auto Unseal"
-#}
-
 variable "vaultlicense" {
 description = "Enterprise License for Vault"
 default     = ""
