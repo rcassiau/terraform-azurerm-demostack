@@ -34,10 +34,10 @@ module "primarycluster" {
   location            = var.location
   admin_username      = var.admin_username
   admin_password      = var.admin_password
-  subscription_id     = var.subscription_id
-  tenant_id           = var.tenant_id
-  client_id           = var.client_id
-  client_secret       = var.client_secret
+#  subscription_id     = var.subscription_id
+#  tenant_id           = var.tenant_id
+#  client_id           = var.client_id
+#  client_secret       = var.client_secret
   owner               = var.owner
   servers             = var.servers
   workers             = var.workers
